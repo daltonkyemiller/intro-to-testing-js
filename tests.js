@@ -21,4 +21,7 @@ describe('sayHello', () => {
     it('should should return a string when called', () => {
         expect(typeof sayHello()).toBe('string');
     });
+    it('should return "Hello, Jane!" when passed "Jane"', () => {
+        expect(sayHello('Jane')).toBe('Hello, Jane!');
+    });
 });
