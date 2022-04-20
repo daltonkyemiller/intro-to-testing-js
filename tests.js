@@ -90,3 +90,12 @@ describe('isEven', () => {
         expect(isEven(true)).toBe(false);
     });
 });
+
+describe('isVowel', () => {
+    it('should be a defined function', () => {
+        expect(typeof isVowel).toBe('function');
+    });
+    it('should return a boolean', () => {
+        expect(typeof isVowel()).toBe('boolean');
+    });
+});

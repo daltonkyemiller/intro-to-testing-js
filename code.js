@@ -15,3 +15,7 @@ function isFive(param) {
 function isEven(param) {
     return parseFloat(param) % 2 === 0;
 }
+
+function isVowel(param) {
+    return true;
+}
