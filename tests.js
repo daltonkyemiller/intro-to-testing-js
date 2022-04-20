@@ -62,5 +62,8 @@ describe('isEven', () => {
     it('should be a defined function', () => {
         expect(typeof isEven).toBe('function');
     });
+    it('should return a boolean', () => {
+        expect(typeof isEven()).toBe('boolean');
+    });
     
 });
