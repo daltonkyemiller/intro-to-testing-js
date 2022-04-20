@@ -141,4 +141,7 @@ describe('add', () => {
     it('should return 6 when passed -4 and 10', () => {
         expect(add(-4, 10)).toBe(6);
     });
+    it('should return NaN when passed "banana" and "split"', () => {
+        expect(add('banana', 'split')).toBe(NaN);
+    });
 });
