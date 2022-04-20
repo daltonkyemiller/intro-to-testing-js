@@ -147,4 +147,7 @@ describe('add', () => {
     it('should return NaN when passed 2 and "apples"', () => {
         expect(add(2, 'apples')).toBeNaN();
     });
+    it('should return NaN when passed nothing', () => {
+        expect(add()).toBeNaN();
+    });
 });
