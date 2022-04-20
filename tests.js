@@ -68,5 +68,8 @@ describe('isEven', () => {
     it('should return true when passed 2', () => {
         expect(isEven(2)).toBe(true);
     });
+    it('should return true when passed -4', () => {
+        expect(isEven(-4)).toBe(true);
+    });
     
 });
