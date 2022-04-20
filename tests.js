@@ -83,5 +83,8 @@ describe('isEven', () => {
     it('should return false when passed Infinity"', () => {
         expect(isEven(Infinity)).toBe(false);
     });
-    
+    it('should return false when passed false"', () => {
+        expect(isEven(false)).toBe(false);
+    });
+   
 });
