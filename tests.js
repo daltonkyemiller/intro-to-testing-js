@@ -144,4 +144,7 @@ describe('add', () => {
     it('should return NaN when passed "banana" and "split"', () => {
         expect(add('banana', 'split')).toBeNaN();
     });
+    it('should return NaN when passed 2 and "apples"', () => {
+        expect(add(2, 'apples')).toBeNaN();
+    });
 });
