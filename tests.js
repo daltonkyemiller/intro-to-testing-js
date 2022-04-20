@@ -14,6 +14,7 @@ describe('helloWorld', function () {
     });
 });
 
+// Unit tests for the sayHello function
 describe('sayHello', () => {
     it('should be a defined function', () => {
         expect(typeof sayHello).toBe('function');
@@ -44,6 +45,7 @@ describe('sayHello', () => {
     });
 });
 
+// Unit tests for the isFive function
 describe('isFive', () => {
     it('should be a defined function', () => {
         expect(typeof isFive).toBe('function');
@@ -58,6 +60,8 @@ describe('isFive', () => {
         expect(isFive('5')).toBe(true);
     });
 });
+
+// Unit tests for the isEven function
 describe('isEven', () => {
     it('should be a defined function', () => {
         expect(typeof isEven).toBe('function');
@@ -91,6 +95,7 @@ describe('isEven', () => {
     });
 });
 
+// Unit tests for the isVowel function
 describe('isVowel', () => {
     it('should be a defined function', () => {
         expect(typeof isVowel).toBe('function');
@@ -124,7 +129,7 @@ describe('isVowel', () => {
     });
 });
 
-
+// Unit tests for the add function
 describe('add', () => {
     it('should be a defined function', () => {
         expect(typeof add).toBe('function');
