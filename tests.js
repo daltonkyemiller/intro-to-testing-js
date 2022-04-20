@@ -71,5 +71,8 @@ describe('isEven', () => {
     it('should return true when passed -4', () => {
         expect(isEven(-4)).toBe(true);
     });
-    
+    it('should return true when passed 3', () => {
+        expect(isEven(3)).toBe(false);
+    });
+   
 });
