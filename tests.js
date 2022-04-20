@@ -58,3 +58,9 @@ describe('isFive', () => {
         expect(isFive('5')).toBe(true);
     });
 });
+describe('isEven', () => {
+    it('should be a defined function', () => {
+        expect(typeof isEven).toBe('function');
+    });
+    
+});

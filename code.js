@@ -11,3 +11,7 @@ function sayHello(param) {
 function isFive(param) {
     return parseFloat(param) === 5;
 }
+
+function isEven(param) {
+    
+}
