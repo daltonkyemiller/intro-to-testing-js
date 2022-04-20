@@ -4,5 +4,11 @@ const helloWorld = function () {
 };
 
 function sayHello(param) {
-    return param === 'Alex' ? 'Hello, Alex!' : 'Hello, Jane!';
+    if (param === 'Jane') {
+        return 'Hello, Jane!';
+    } else if (param === 'Pat') {
+        return 'Hello, Pat!';
+    } else {
+        return 'Hello, Alex!';
+    }
 }
