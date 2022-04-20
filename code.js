@@ -13,5 +13,5 @@ function isFive(param) {
 }
 
 function isEven(param) {
-    return false;
+    return param === 2;
 }

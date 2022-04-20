@@ -65,5 +65,8 @@ describe('isEven', () => {
     it('should return a boolean', () => {
         expect(typeof isEven()).toBe('boolean');
     });
+    it('should return true when passed 2', () => {
+        expect(isEven(2)).toBe(true);
+    });
     
 });
