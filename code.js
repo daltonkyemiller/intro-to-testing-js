@@ -17,6 +17,5 @@ function isEven(param) {
 }
 
 function isVowel(param) {
-    if (param === 'y') return false;
-    else return true;
+    return param !== 'y' && param !== 4;
 }
