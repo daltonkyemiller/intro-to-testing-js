@@ -43,3 +43,9 @@ describe('sayHello', () => {
         expect(sayHello('5')).toBe('Hello, World!');
     });
 });
+
+describe('isFive', () => {
+    it('should be a defined function', () => {
+        expect(typeof isFive).toBe('function');
+    });
+});
