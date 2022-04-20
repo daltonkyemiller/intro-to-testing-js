@@ -18,4 +18,7 @@ describe('sayHello', () => {
     it('should be a defined function', () => {
         expect(typeof sayHello).toBe('function');
     });
+    it('should should return a string when called', () => {
+        expect(typeof sayHello()).toBe('string');
+    });
 });
