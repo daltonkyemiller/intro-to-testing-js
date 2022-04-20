@@ -119,4 +119,7 @@ describe('isVowel', () => {
     it('should return false when passed "banana"', () => {
         expect(isVowel('banana')).toBe(false);
     });
+    it('should return false when passed nothing', () => {
+        expect(isVowel()).toBe(false);
+    });
 });
