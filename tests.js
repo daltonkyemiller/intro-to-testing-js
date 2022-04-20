@@ -30,4 +30,16 @@ describe('sayHello', () => {
     it('should return "Hello, Pat!" when passed "Pat"', () => {
         expect(sayHello('Pat')).toBe('Hello, Pat!');
     });
+    it('should return "Hello, World!" when nothing is passed', () => {
+        expect(sayHello()).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when "" is passed', () => {
+        expect(sayHello('')).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when the float 2.3 is passed', () => {
+        expect(sayHello(2.3)).toBe('Hello, World!');
+    });
+    it('should return "Hello, World!" when "5" is passed', () => {
+        expect(sayHello('5')).toBe('Hello, World!');
+    });
 });

@@ -4,5 +4,6 @@ const helloWorld = function () {
 };
 
 function sayHello(param) {
+    if (!param || typeof param !== 'string' || !isNaN(param)) return 'Hello, World!';
     return 'Hello, ' + param + '!';
 }
