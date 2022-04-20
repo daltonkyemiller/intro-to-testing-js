@@ -135,4 +135,7 @@ describe('add', () => {
     it('should return 5 when passed -3 and -9', () => {
         expect(add(-3, -9)).toBe(-12);
     });
+    it('should return 11 when passed 5 and 6', () => {
+        expect(add(5, 6)).toBe(11);
+    });
 });
