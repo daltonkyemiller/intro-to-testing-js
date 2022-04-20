@@ -86,5 +86,7 @@ describe('isEven', () => {
     it('should return false when passed false"', () => {
         expect(isEven(false)).toBe(false);
     });
-   
+    it('should return false when passed true"', () => {
+        expect(isEven(true)).toBe(false);
+    });
 });
