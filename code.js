@@ -24,5 +24,5 @@ function isVowel(param) {
 }
 
 function add(a, b) {
-
+    return a + b;
 }

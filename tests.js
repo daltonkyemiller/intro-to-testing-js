@@ -129,4 +129,7 @@ describe('add', () => {
     it('should be a defined function', () => {
         expect(typeof add).toBe('function');
     });
+    it('should return 5 when passed 3 and 2', () => {
+        expect(add(3, 2)).toBe(5);
+    });
 });
