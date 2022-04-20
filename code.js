@@ -17,5 +17,8 @@ function isEven(param) {
 }
 
 function isVowel(param) {
-    return param !== 'y' && param !== 4 && param !== 'banana' && param !== false && param !== true && param !== undefined;
+    if (typeof param !== 'string') return false;
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    let normalizedParam = param.toLowerCase().trim();
+    return vowels.includes(normalizedParam);
 }
