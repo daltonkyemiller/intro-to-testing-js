@@ -123,3 +123,10 @@ describe('isVowel', () => {
         expect(isVowel()).toBe(false);
     });
 });
+
+
+describe('add', () => {
+    it('should be a defined function', () => {
+        expect(typeof add).toBe('function');
+    });
+});

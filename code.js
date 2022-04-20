@@ -22,3 +22,7 @@ function isVowel(param) {
     let normalizedParam = param.toLowerCase().trim();
     return vowels.includes(normalizedParam);
 }
+
+function add(a, b) {
+
+}
