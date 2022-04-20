@@ -132,4 +132,7 @@ describe('add', () => {
     it('should return 5 when passed 3 and 2', () => {
         expect(add(3, 2)).toBe(5);
     });
+    it('should return 5 when passed -3 and -9', () => {
+        expect(add(-3, -9)).toBe(-12);
+    });
 });
